@@ -113,23 +113,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kiev/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
-    libcamera_nn_stub \
-    libcamxexternalformatutils \
-    libcamxfacialfeatures \
-    libcamxfdalgo \
-    libcamximageformatutils \
-    libcamxncs \
-    libcamxstatscore \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
-    libofflinelog \
-    audio.primary.lito-moto \
-    sound_trigger.primary.lito \
-    libmotaudioutils \
-    libtinyalsa-moto \
-    libtinycompress_vendor \
-    libmmieffectswrapper \
-    libspeakerbundle \
+    libasphere \
+    libshoebox \
     com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom \
     com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom \
     com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom \
@@ -215,9 +200,18 @@ PRODUCT_PACKAGES += \
     libarcsoft_portrait_distortion_correction \
     libarcsoft_zoomtranslator_imp \
     libbitmlengine \
+    libcamera_nn_stub \
     libcamerapostproc \
+    libcamxexternalformatutils \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
     libcamxfdengine \
     libcamxifestriping \
+    libcamximageformatutils \
+    libcamxncs \
+    libcamxstatscore \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
     libchilog \
     libcom.qti.chinodeutils \
     libets_fp_et5 \
@@ -233,6 +227,7 @@ PRODUCT_PACKAGES += \
     libmulticam_image_optical_zoom \
     libmulticam_optical_zoom_control \
     libmulticam_video_optical_zoom \
+    libofflinelog \
     libpn557_fw \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
@@ -261,7 +256,6 @@ PRODUCT_PACKAGES += \
     com.android.hotwordenrollment.common.util \
     com.motorola.androidx.camera.extensions \
     capsense_reset \
-    charge_only_mode \
     hvdcp_opti \
     android.hardware.biometrics.fingerprint@2.1-service-ets \
     motsettings
