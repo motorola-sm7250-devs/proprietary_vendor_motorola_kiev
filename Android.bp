@@ -1600,7 +1600,7 @@ cc_prebuilt_library_shared {
                 "libvidhance",
                 "libutils",
                 "libcutils",
-                "libui",
+                "libui-v34",
                 "libhidlbase",
                 "libhidltransport",
                 "android.frameworks.sensorservice@1.0",
